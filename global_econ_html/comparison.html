@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="comparison.css">
+
+   <!-- jQuery CDN -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+   <!-- Bootstrap CDN -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Global Economics</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="gdp_sum.html">Total GDP by region</a></li>
+                    <li><a href="gdp_pie.html">Total GDP by region pie chart</a></li>
+                    <li><a href="gdp_capita.html">Median GDP per capita by region</a></li>
+                    <li><a href="gdp_growth.html">Median GDP growth rate by region</a></li>
+                </ul>
+        </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+ <!-- Our rows function in containers (grid created). -->
+  <div class="container">
+    <!--First row-->
+    <div class="row">
+           <!--First Column in this Row-->
+        <div class="col-md-12">
+        <div class="box">
+            <h1>Comparison </h1>
+            <h2 class="small-font">Please click on any display for more info</h2>
+                <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                                <a href="gdp_sum.html"> <img id="gdp-sum1" src="images/gdp.png" class="img-responsive"> </a>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                                <a href="gdp_capita.html"> <img id="gdp-capita1" src="images/gdpcapita.png"  class="img-responsive"> </a> 
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                                <a href="gdp_growth.html"> <img id="gdp-growth" src="images/gdpgrowth.png"  class="img-responsive"> </a>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                                <a href="gdp_pie.html"> <img id="gdp-pie" src="images/gdp_piechart.png"  class="img-responsive"> </a>
+                    </div>
+                        </div>
+                </div>  
+
+        </div>>
+
+
+        </div>
+            
+    </div>
+         
+  </div>
+</body>
+</html>

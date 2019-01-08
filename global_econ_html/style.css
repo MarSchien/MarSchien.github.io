@@ -1,0 +1,59 @@
+.box {
+    padding: 20px;
+    margin: 10px;
+    color: rgb(138, 253, 241);
+    background:  rgba(102, 32, 182, 0.75);
+
+  }
+  
+  #gdp-sum {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    float: left;
+
+  }
+
+  #gdp-sum1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  #gdp-capita1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  #gdp-growth {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  #gdp-pie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  body {
+    background-image: url('./images/new-york-city-night-shawn-everhart.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

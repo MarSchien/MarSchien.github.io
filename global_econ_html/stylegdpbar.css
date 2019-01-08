@@ -1,0 +1,62 @@
+  .box-1 {
+    padding: 20px;
+    margin: 10px;
+    color: rgb(11, 24, 212);
+    background:  rgb(32, 182, 64, 0.5);
+  }
+
+  .box-2 {
+    padding: 20px;
+    margin: 10px;
+    color: rgb(11, 24, 212);
+    background:  rgb(32, 182, 64, 0.5);
+  } 
+
+  #gdp-sum {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+  }
+
+  #gdp-sum1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  #gdp-capita1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  #gdp-growth {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  #gdp-pie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  body {
+    background: #0894d6;
+  }
+
