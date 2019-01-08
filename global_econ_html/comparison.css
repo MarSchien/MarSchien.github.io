@@ -1,8 +1,8 @@
 .box {
     padding: 20px;
     margin: 10px;
-    color: rgb(199, 212, 11);
-    background:  rgba(102, 32, 182, 0.5);
+    color: rgb(11, 212, 55);
+    background:  rgba(35, 32, 182, 0.5);
   }
  .small-font{
     font-size:25px;
@@ -42,10 +42,8 @@
     height: 75%;
     padding: 2px 2px 2px 2px;
   }
+
   body {
-    background:  rgba(38, 177, 187);
+    background:  rgb(38, 179, 189);
   }
 
-  table {
-
-  }
